@@ -6,6 +6,7 @@
 class BaseA
 {
 public:
+	BaseA() = default;					// forces a compiler to generate a default constructor
 	virtual	void	func(void) final
 	{
 
