@@ -55,9 +55,19 @@ class 	Four
 
 	Four(const Four &, int i = 0)
 	{
-		
+
 	}
 
+};
+
+// 1, 2, 3 (2, 3 are depricated)
+
+class 	Five()
+{
+	~Five()
+	{
+
+	}
 };
 
 int 	main(void)
